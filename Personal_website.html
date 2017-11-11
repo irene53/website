@@ -1,0 +1,289 @@
+
+<!doctype html>
+	<html>
+
+ 		<head>
+
+ 		<link rel= "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">	
+
+
+ 			<style>
+
+ 			h1.priority {color:yellow;}
+
+
+			p {font-family: arial, sans-serif;}
+
+
+ 			img{height:400px;width:400px;}
+
+
+ 			/*syntax to isolate style for a particular paragraph*/
+
+
+ 			#paragraph1 {
+ 				text-align: center;
+ 				color:White;
+ 			}
+
+
+ 			/* instructor email and name: Derek Sasthav, dsasthav@gmail.com  */
+
+
+ 			/* Concept of "responsiveness = whether a site scales well to different sorts of screens, such do the photos & everything scale well to a small screen? Will the website be mostly used in that format, or in desktop format"? */
+
+ 			/* There are some ways to build in responsiveness into the code = using percentages instead of fixed pixels, such as = 
+
+ 			div.largeContainer {width:100%;}     <-- what this means is that the container will take up the entire 100% of screen
+
+ 			Also check out the "CSS Media Queries" in notes where the pixel width and background changes if code detects a certain type of media screen
+
+
+
+ 			/* a really cool code is to resize a photo while keeping its proportions, which is this... it makes a max of the height and width, but keeps proportions automatic 
+
+ 			img {
+ 			max-width:250px;	
+ 			max-height:250px;
+ 			width:auto;
+ 			height:auto;	}
+
+			that would surbstitute this in the same place =
+
+			img{height:200px;width:200px;}
+
+
+ 			*/
+
+
+
+ 			body { 
+ 				background-color:#7a5b7f;}
+
+
+
+ 			p {background-color:lightgrey;}
+
+
+ /* This is an example of a comment, where I can say whatever I want, and it has no effect on the code. This is the CSS format for comments */
+
+ 				h1{color:mediumspringgreen;}
+
+ 				h2{color:darkcyan;}
+
+ 				p{color:Green;font-size:20px;}
+
+
+ 			</style>	
+		</head>	
+
+
+
+			<body>
+
+
+				<!-- this is a comment I am just writing comment, this is HTML comment syntax-->
+
+
+				66
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" datatoggle="
+collapse" data-target="#navbar" aria-expanded="false" ariacontrols="
+navbar">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="#">Awesome Project</a>
+</div>
+<div id="navbar" class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li class="active"><a href="#">Home</a></li>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#features">Features</a></li>
+</ul>
+</div><!--/.nav-collapse -->
+</div>
+</nav>
+
+
+<header>
+<div class="container">
+<div class="jumbotron">
+
+
+
+<h1 class="priority"> A great title! </h1>
+
+
+<p class="lead">Some description.
+</p>
+<p>
+<a class="btn btn-lg btn-success" href="#"
+role="button">See more</a>
+</p>
+</div>
+</div>
+</header>
+
+			 <h1 class = "priority" > Irene Lau, MBA </h1>
+
+
+			 <div class="container">
+<div class="row">
+<div class="col-md-4">I am column 1.</div>
+<div class="col-md-4">I am column 2.</div>
+<div class="col-md-4">I am column 3.</div>
+</div>
+<div class="row">
+<div class="col-md-8">I am a larger column.</div>
+<div class="col-md-2">I am a smaller column.</div>
+<div class="col-md-2">I am a smaller column.</div>
+</div>
+</div>
+
+
+
+			 <P id = "paragraph1">	
+
+
+			 	This is a paragraph where <span style="color:rebeccappurple"> I am writing </span> about coding, and at this <span style="color:burlywood"> point this </span> is just so I can try the span in-line element... go to this link to see over 130 recognized color names <a href="https://www.w3schools.com/tags/ref_colornames.asp"  
+			 	target= "_blank" > colors </a> </P>
+
+			<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAf0AAAAJDhiMTMxZjNmLTVhNzItNDAxMi04YzY4LWNiM2ZiYjI0NWEyMw.jpg">
+
+			<img src="https://i.redditmedia.com/cFnI1YDvPB2nIqEiaUWB2cn5eCIm938e5OF43uOjwC8.jpg?w=1024&s=010b9fabedd15c0418f6455b3597f603">
+
+
+			 <h1> BA at..., MBA at... </h1>
+
+
+			 <p> Concentrations in... </p>
+			 <h2> Subject Matter Expert: </h2>
+
+				<ul>
+					<ul style="list-style-type:square">
+					<li>B2B & B2C payments security</li>
+					<li>compliance program design</li>
+					<li>yo mama</li>
+					<li>whatever you pay me for</li>
+				</ul>
+
+
+			 <p> Currently sourcing opportunities for employment. </p>
+			 <h2> Subject Matter Expert: </h2>
+
+			 <strong> this is the strong tag </strong>
+			 <small> this is a small tag </small>
+			<em> this is the embed tag </em>
+			<br>
+			<p> I like to hamburgers a little <br> <strong> too much </strong> but everyone has a weakness </p>
+			Coding is like <em> mathematical poetry </em> <br>
+			<a href="https://www.linkedin.com/in/irenelau1/" target="_blank" > My LinkedIn </a> <br>
+
+			<ul>
+				<li> <a href="https://www.linkedin.com/in/irenelau1/" target="_blank" > My LinkedIn </a> </li>
+				<li>Item 2</li>
+				<li>Item 3</li>
+				<li>Item 3</li> </ul>
+
+				<br>
+				
+			<ul style="list-style-type:square">
+				<li>this is</li>
+				<li>square</li>
+				<li>bullets</li>
+				<li>for variety</li>
+
+
+			</ul>
+
+			<div>
+
+			<ol>
+				<li>Item </li>
+				<li>Item </li>
+				<li>Item </li>
+			</ol></div>
+
+					<br>
+
+
+					<p id="myparagraph"></p>
+
+</ul>
+					<button type="button" onclick ="Helloworld()">Click</button>
+
+<script> function Helloworld() {
+	document.getElementByID("myparagraph").innerHTML = "Hello World";
+}
+	
+
+</script>
+
+
+					<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery
+.min.js"></script>
+
+<script
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstr
+ap.min.js"></script>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div class="carousel-inner" role="listbox">
+<div class="item active">
+I am the first element in the carousel.
+</div>
+<div class="item">
+I am the second element in the carousel.
+</div>
+</div>
+</div>
+
+
+
+			<p id="prettyParagraph"> Louis CK, why? </p>
+
+			<button type="button" onclick="applyStyling()">Make it pretty!</button>
+
+			<script>
+					function applyStyling() {
+					var paragraph = document.getElementById("prettyParagraph");
+					paragraph.style.color = "red";
+					paragraph.style.fontSize = "29px";
+					paragraph.style.fontWeight = "700";
+					}
+			</script>
+		
+
+<script type="text/javascript">
+$(document).ready(function() {
+$("#myCarousel").carousel({interval: 4000});
+});
+</script>
+
+			</body>
+
+
+			<script>
+
+
+			var result = 5 + 3;
+			alert("5+3 is " + result)	
+
+
+	
+
+
+			</script> 
+
+ </html>
+
+
+
+
